@@ -1,0 +1,26 @@
+@media(max-with:1300px) {
+    .hero {
+        height: auto;
+    }
+
+
+    .hero__desc {
+        margin: 0 auto;
+    }
+
+    .hero__img {
+        flex-shrink: 0;
+    }
+
+    .description-house {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width) {
+    .container {
+        max-width: 768px;
+    }
+}
